@@ -1,0 +1,71 @@
+.navbar-brand {
+    margin-left: 60px; 
+    
+  }
+
+  .nav-item .dropdown-toggle::after {
+    display: none;
+}
+
+.input-group-text i {
+  color: #6c757d; /* Adjust color if needed */
+}
+
+.custom-navbar {
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background-color:white;
+padding:10px 0;
+}
+
+.navbar-nav {
+display: flex;
+gap: 15px; /* Adjust spacing between navbar items as needed */
+
+}
+
+.custom-navbar .navbar-nav .nav-link {
+color: black !important; /* Ensures red color is applied */
+font-weight:bold;
+font-family: "Lato", sans-serif;
+font-weight: 700;
+padding: 10px 15px; /* Adds padding around each link */
+margin: 0 5px;
+
+}
+
+.custom-navbar .navbar-nav .nav-link:hover{
+color: #AE147E !important;
+}
+
+.navbar-divider{
+margin-bottom:0px;
+background-color:000;
+}
+
+.navbar-brand img {
+max-height: 130px; /* Ensures it doesn’t exceed a certain height */
+max-width: 130px; /* Ensures it doesn’t exceed a certain width */
+width: auto;
+height:auto;
+margin-left:300px;
+margin-bottom:-20px;
+
+}
+
+.form-inline{
+margin-left:60px;
+max-width:50%
+
+}
+
+.top-bar {
+display: flex;
+background-color: white;
+}
+
+.input-group{
+margin-bottom:-20px
+}
